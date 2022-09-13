@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">First App</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="sign_up">SING UP</string>
+    <string name="password">PASSWORD</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="login">Login</string>
+    <string name="Please_sign_in_to_continue">Please Sign in to continue</string>
+    <string name="forgot">FORGOT</string>
+    <string name="don_have_an_account_">Don\'t have an account?</string>
+    <string name="sing_in">Sing In</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+
+
+</resources>

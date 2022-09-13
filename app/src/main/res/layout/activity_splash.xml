@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="40dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#FF000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/Please_sign_in_to_continue"
+       android:layout_marginLeft="20sp"
+       android:textSize="17dp">
+
+   </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/email"
+        android:textSize="23sp"
+        android:paddingEnd="250dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/password"
+        android:textSize="23sp"
+        android:paddingEnd="200dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="315dp"
+        android:textColor="#FF6200EE"
+        android:textStyle="italic">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/sign_button_shape1"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:text="@string/login">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <androidx.appcompat.widget.AppCompatTextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/don_have_an_account_"
+        android:layout_marginLeft="30dp"
+        android:textSize="18dp"
+        android:layout_marginTop="50dp">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sing_in"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17dp"
+        android:onClick="SignIn"
+        android:textColor="#FF0707"
+        android:textStyle="bold">
+
+
+    </androidx.appcompat.widget.AppCompatTextView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

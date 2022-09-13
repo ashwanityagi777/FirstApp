@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#3A11CC"
+    android:id="@+id/mytoolbaar">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_baseline_menu_24">
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My App"
+        android:textColor="#F6DBDB"
+        android:textSize="23sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+
+    
+</androidx.appcompat.widget.LinearLayoutCompat>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/import_menu"
+            android:icon="@color/white"
+            android:title="Import"/>
+        <item android:id="@+id/gallery_menu"
+            android:icon="@color/white"
+            android:title="Gallery"/>
+        <item android:id="@+id/slideshow_menu"
+            android:icon="@color/white"
+            android:title="Slideshow"/>
+        <item android:id="@+id/tools_menu"
+            android:icon="@color/white"
+            android:title="Tools"/>
+
+
+
+
+    </group>
+
+
+</menu>
